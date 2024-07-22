@@ -31,9 +31,9 @@
 
         public int SquareRoot(int a)
         {
-            if (a == 0)
-                throw new ArgumentException("Cannot square root zero.");
-            return a / a;
+            if (a < 0)
+                throw new ArgumentException("Cannot square root a negative number.");
+            return (int)Math.Sqrt(a);
         }
     }
 }
