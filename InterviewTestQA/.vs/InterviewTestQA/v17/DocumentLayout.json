@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{C9C0429A-4745-472A-824A-0DEB17F8B002}|InterviewTestQA\\InterviewTestQA.csproj|c:\\users\\abhay\\source\\repos\\loraxinterviewtest\\interviewtestqa\\interviewtestqa\\interviewtestautomation\\calculatortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9C0429A-4745-472A-824A-0DEB17F8B002}|InterviewTestQA\\InterviewTestQA.csproj|solutionrelative:interviewtestqa\\interviewtestautomation\\calculatortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C0429A-4745-472A-824A-0DEB17F8B002}|InterviewTestQA\\InterviewTestQA.csproj|c:\\users\\abhay\\source\\repos\\loraxinterviewtest\\interviewtestqa\\interviewtestqa\\interviewtestautomation\\jsontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C0429A-4745-472A-824A-0DEB17F8B002}|InterviewTestQA\\InterviewTestQA.csproj|solutionrelative:interviewtestqa\\interviewtestautomation\\jsontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9C0429A-4745-472A-824A-0DEB17F8B002}|InterviewTestQA\\InterviewTestQA.csproj|c:\\users\\abhay\\source\\repos\\loraxinterviewtest\\interviewtestqa\\interviewtestqa\\interviewtestautomation\\costanalysis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9C0429A-4745-472A-824A-0DEB17F8B002}|InterviewTestQA\\InterviewTestQA.csproj|solutionrelative:interviewtestqa\\interviewtestautomation\\costanalysis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,13 +34,39 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CostAnalysis.cs",
+              "DocumentMoniker": "C:\\Users\\abhay\\source\\repos\\LoraxInterviewTest\\InterviewTestQA\\InterviewTestQA\\InterviewTestAutomation\\CostAnalysis.cs",
+              "RelativeDocumentMoniker": "InterviewTestQA\\InterviewTestAutomation\\CostAnalysis.cs",
+              "ToolTip": "C:\\Users\\abhay\\source\\repos\\LoraxInterviewTest\\InterviewTestQA\\InterviewTestQA\\InterviewTestAutomation\\CostAnalysis.cs",
+              "RelativeToolTip": "InterviewTestQA\\InterviewTestAutomation\\CostAnalysis.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T06:36:18.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JSONTest.cs",
+              "DocumentMoniker": "C:\\Users\\abhay\\source\\repos\\LoraxInterviewTest\\InterviewTestQA\\InterviewTestQA\\InterviewTestAutomation\\JSONTest.cs",
+              "RelativeDocumentMoniker": "InterviewTestQA\\InterviewTestAutomation\\JSONTest.cs",
+              "ToolTip": "C:\\Users\\abhay\\source\\repos\\LoraxInterviewTest\\InterviewTestQA\\InterviewTestQA\\InterviewTestAutomation\\JSONTest.cs",
+              "RelativeToolTip": "InterviewTestQA\\InterviewTestAutomation\\JSONTest.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAiwDAAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T06:33:23.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CalculatorTest.cs",
               "DocumentMoniker": "C:\\Users\\abhay\\source\\repos\\LoraxInterviewTest\\InterviewTestQA\\InterviewTestQA\\InterviewTestAutomation\\CalculatorTest.cs",
               "RelativeDocumentMoniker": "InterviewTestQA\\InterviewTestAutomation\\CalculatorTest.cs",
               "ToolTip": "C:\\Users\\abhay\\source\\repos\\LoraxInterviewTest\\InterviewTestQA\\InterviewTestQA\\InterviewTestAutomation\\CalculatorTest.cs",
               "RelativeToolTip": "InterviewTestQA\\InterviewTestAutomation\\CalculatorTest.cs",
-              "ViewState": "AQIAAHMAAAAAAAAAAAAtwFwAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-22T20:37:14.124Z",
               "EditorCaption": ""

@@ -28,22 +28,22 @@ namespace InterviewTestQA
             string jsonFilePath = Path.Combine(Directory.GetCurrentDirectory(), "InterviewTestAutomation", "Data", "Cost Analysis.json");
             string json = File.ReadAllText(jsonFilePath);
 
-            // Deserialize the Json into a variable containing list of Json Objects
+            // Deserialize the Json into a variable containing the list of Json Objects
             var costAnalysisList = JsonConvert.DeserializeObject<List<CostAnalysis>>(json);
 
-            // Assert the number of items in the list
+            // Assert the number of items in the list and print the same
             int expectedCount = 53;
             Assert.Equal(expectedCount, costAnalysisList.Count);
             output.WriteLine($"Total Number of items in the list: {costAnalysisList.Count}");
             
-            // Fetch the top item for  from the list and sort Cost in descending order
+            // Fetch the top item from the list and sort the Cost in descending order
             var topItem = costAnalysisList.OrderByDescending(item => item.Cost).FirstOrDefault();
 
-            // Assert the top item exists
+            // Assert that the top item exists and print the same
             Assert.NotNull(topItem);
             output.WriteLine($"Top Item in the list which is maximum cost : {topItem.Cost}");
 
-            // Assert the Country ID of the top item
+            // Assert the Country ID of the top item and print the same
             int expectedCountryId = 0;
             Assert.Equal(expectedCountryId, topItem.CountryId);
             output.WriteLine($"Top Country in the list: {topItem.CountryId}");
@@ -51,7 +51,7 @@ namespace InterviewTestQA
             // Calculate Sum of cost for the Year 2016
             var sumOfCost = costAnalysisList.Where(item => item.YearId.Equals("2016")).Sum(item  => item.Cost);
 
-            // Assert the Total Sum of cost for Year 2016
+            // Assert the Total Sum of cost for Year 2016 and print the same
             double expectedSumOfCost = 77911.374456100006;
             Assert.Equal(expectedSumOfCost, sumOfCost);
             output.WriteLine($"Total Sum of Costs for Year ID 2016 is : {sumOfCost}");

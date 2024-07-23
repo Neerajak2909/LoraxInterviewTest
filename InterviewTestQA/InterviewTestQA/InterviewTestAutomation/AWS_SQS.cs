@@ -34,7 +34,7 @@ namespace InterviewTestQA.InterviewTestAutomation
                 Console.WriteLine($"Queue URL: {QueueUrl}");
 
                 // Send a message to the SQS queue
-                string messageBody = "Hi, this is a test message!";
+                string messageBody = "Hi, this is a test message !!";
                 await SendMessageAsync(sqsClient, QueueUrl, messageBody);
 
                 // Receive the message from the SQS queue
@@ -45,10 +45,10 @@ namespace InterviewTestQA.InterviewTestAutomation
                     Console.WriteLine($"Message received with ID: {receivedMessage.MessageId}");
                     Console.WriteLine($"Message body: {receivedMessage.Body}");
 
-                    // Verify that the received message matches the sent message
+                    // Verify that the received message is same as the sent message
                     if (receivedMessage.Body == messageBody)
                     {
-                        Console.WriteLine("Test Passed: The received message matches the sent message.");
+                        Console.WriteLine("Test Successful : The received message matches the sent message.");
                     }
                     else
                     {

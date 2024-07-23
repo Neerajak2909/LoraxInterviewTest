@@ -7,13 +7,16 @@ namespace InterviewTestQA
 {
     public class CalculatorTest
     {
-        private readonly Calculator _calculator;
+        // Creating instance of Calculator class
+        private Calculator _calculator;
 
+        // Initializing using constructor
         public CalculatorTest()
         {
             _calculator = new Calculator();
         }
 
+        // Testcase 1 : Addition of combinations of valid inputs of positive and negative numbers which returns the sum
         [Theory]
         [InlineData(0, 0, 0)]
         [InlineData(6, 2, 8)]
@@ -30,6 +33,7 @@ namespace InterviewTestQA
             Assert.Equal(expectedResult, actualResult);
         }
 
+        // Testcase 2 : Subtraction of combinations of valid inputs of positive and negative numbers which returns the difference
         [Theory]
         [InlineData(0, 0, 0)]
         [InlineData(6, 2, 4)]
@@ -46,6 +50,7 @@ namespace InterviewTestQA
             Assert.Equal(expectedResult, actualResult);
         }
 
+        // Testcase 3 : Multiplication of combinations of valid inputs of positive and negative numbers which returns the product
         [Theory]
         [InlineData(0, 0, 0)]
         [InlineData(6, 2, 12)]
@@ -62,6 +67,7 @@ namespace InterviewTestQA
             Assert.Equal(expectedResult, actualResult);
         }
 
+        // Testcase 4 : Division of combinations of valid inputs of positive and negative numbers which returns the quotient
         [Theory]
         [InlineData(0, 5, 0)]
         [InlineData(6, 2, 3)]
@@ -79,12 +85,14 @@ namespace InterviewTestQA
             Assert.Equal(expectedResult, actualResult);
         }
 
+        // Testcase 5 : Divide by zero invalid input which throws an exception
         [Fact]
         public void DivisionTest_DivideByZero()
         {
             Assert.Throws<ArgumentException>(() => _calculator.Divide(100, 0));
         }
 
+        // Testcase 6 : Square of valid inputs of positive and negative numbers which returns the square
         [Theory]
         [InlineData(0, 0)]
         [InlineData(6, 36)]
@@ -97,6 +105,7 @@ namespace InterviewTestQA
             Assert.Equal(expectedResult, actualResult);
         }
 
+        // Testcase 7 : Square root of valid inputs of positive perfect square numbers which returns the square root
         [Theory]
         [InlineData(0, 0)]
         [InlineData(49, 7)]
@@ -107,6 +116,7 @@ namespace InterviewTestQA
             Assert.Equal(expectedResult, actualResult);
         }
 
+        // Testcase 8 : Square root of valid inputs of positive non perfect square numbers which returns the square root
         [Theory]
         [InlineData(10, 3)]
         [InlineData(90, 9)]
@@ -116,6 +126,7 @@ namespace InterviewTestQA
             Assert.Equal(expectedResult, actualResult);
         }
 
+        // Testcase 9 : Square root for invalid input of negative perfect square numbers which throws an exception
         [Fact]
         public void SquareRootTest_SqrtOfNegativeNumber()
         {
