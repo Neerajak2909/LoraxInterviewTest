@@ -5,7 +5,7 @@ Set up an AWS SQS queue (either in a real AWS account or using the local SQS emu
 
 Class Name : AWS_SQS.cs
 
-3. JSON Automation Testing
+2. JSON Automation Testing
 There is a JSON file in the project called Cost Analysis.json It contains an array of objects Build a class that could be used to deserialize a single object from that array Within JSONTest.cs
 
 Instantiate a list of the object you have defined
@@ -20,12 +20,12 @@ Sum Cost for 2016 and write to Assert the total.
 
 Class Name : CostAnalysis.cs & JSONTest.cs
 
-Calculator Automation Testing
+3. Calculator Automation Testing
 Implement unit tests for a simple calculator class. Requirements: Create a Calculator class with methods for basic arithmetic operations: addition, subtraction, multiplication, and division. Implement unit tests to verify the correctness of each arithmetic operation method. Use a unit testing framework compatible with the programming language of your choice (e.g., JUnit for Java, NUnit for C#, pytest for Python). Ensure that each method is tested for various input scenarios, including positive and negative numbers, zero, and edge cases.
 
 Class Name : CalculatorTest.cs
 
-TestAutomation.cs
+4. TestAutomation.cs
 From the file (TestAutomation.cs) given, can you find any problems in the code?
 
 Solution : Line Number 44 should be Instance brcause it is initialized in the constructor.
