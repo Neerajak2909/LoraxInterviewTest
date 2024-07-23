@@ -28,4 +28,4 @@ Implement unit tests for a simple calculator class. Requirements: Create a Calcu
 4. TestAutomation.cs
 From the file (TestAutomation.cs) given, can you find any problems in the code?
 
-**Solution : Config = new ServiceConfigEnv("lx01dev"); : Line should be Instance because it is initialized in the constructor.**
+**Solution : Config = new ServiceConfigEnv("lx01dev"); : Should be Instance because it is initialized in the constructor.**
