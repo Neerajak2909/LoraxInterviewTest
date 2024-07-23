@@ -108,3 +108,4 @@ C:\Users\abhay\source\repos\LoraxInterviewTest\InterviewTestQA\InterviewTestQA\b
 C:\Users\abhay\source\repos\LoraxInterviewTest\InterviewTestQA\InterviewTestQA\bin\Debug\net6.0\testcentric.engine.metadata.dll
 C:\Users\abhay\source\repos\LoraxInterviewTest\InterviewTestQA\InterviewTestQA\bin\Debug\net6.0\nunit.framework.dll
 C:\Users\abhay\source\repos\LoraxInterviewTest\InterviewTestQA\InterviewTestQA\bin\Debug\net6.0\nunit.framework.legacy.dll
+C:\Users\abhay\source\repos\LoraxInterviewTest\InterviewTestQA\InterviewTestQA\bin\Debug\net6.0\InterviewTestAutomation\Data\Cost Analysis.json
